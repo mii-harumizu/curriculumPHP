@@ -1,0 +1,21 @@
+*{ 
+  background-color: gray;
+  color: white;
+}
+
+h1{
+  border-bottom: 2px white solid;
+}
+
+.main{
+  text-align: center;
+}
+
+.textbox{
+  background-color: white;
+}
+
+.submit{
+  background-color: white;
+  color: black;
+}
