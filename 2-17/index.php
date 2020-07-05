@@ -13,14 +13,18 @@ $measure = 40;
 $count = 0;
 while($measure >= 0){
   $dice = mt_rand(1, 6);
+  // $dice = 5;
   $count++;
   $measure -= $dice;
     echo $count. "回目＝". $dice. "<br>";
+  if($measure === 0){
+  break;
+  }
   }
   echo $count . "回目でゴール" . "<br>";
   ?>
 
-<p>-時間別挨拶-</p>
+  <p>-時間別挨拶-</p>
 
 <?php
 
