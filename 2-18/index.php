@@ -14,7 +14,8 @@
     <form action="question.php" method="post">
     <!-- <fieldset> -->
       <input type ="text" name = "my_name" placeholder ="名前を入力してください" class ="textbox"  />
-      <input type ="submit" value="テスト開始" class="submit"/>
+      <input type ="submit" value="テスト開始" class="submit
+      "/>
     <!-- </fieldset> -->
   </form>
   </div>
